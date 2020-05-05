@@ -8,9 +8,9 @@ const HomePage = () =>{
     }
     return(
     <div className="homepage-wrapper">
-        <h2>Pizza Anyone?</h2>
-    <p>Come choose from your favorite pizza, delivered to you while you code!</p>
-    <button className="pizza-button" onClick={pizzaPage}>Pizza?</button>
+        <h2>Do you want Pizza?</h2>
+    <p>choose your own pizzaaaaa</p>
+    <button className="pizza-button" onClick={pizzaPage}>Order</button>
     </div>
     )
 }
