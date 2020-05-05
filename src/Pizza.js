@@ -370,9 +370,6 @@ export default function Pizza() {
 
   return (
     <form className="pizzaForm" onSubmit={formSubmit}>
-      {/* <Link to={"/"}>
-        <div>Home Page</div>
-      </Link> */}
       <h1>Build your pizza and submit your order!!</h1>
       <label htmlFor="name">
         Name:
@@ -456,7 +453,10 @@ export default function Pizza() {
           <p className="error">{errors.instructions}</p>
         ) : null}
       </label>
-      <pre>{JSON.stringify(post, null, 2)}</pre>
+      {/* <pre>{JSON.stringify(post, null, 2)}</pre> */}
+      <br></br>
+      <br></br>
+
       <button disabled={button}>Submit</button>
     </form>
   );
